@@ -1,0 +1,28 @@
+version: '2'
+
+services:
+  db:
+    image: mariadb
+    restart: always
+    volumes:
+      - /sciezkabaza/:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD="haslo"
+      - MYSQL_PASSWORD="haslo"
+      - MYSQL_DATABASE="baza"
+      - MYSQL_USER="uztykownik"
+
+  app:
+    image: nextcloud
+    restart: always
+    ports:
+      - "porty"
+    links:
+      - db
+    volumes:
+      - /sciezkaapp/:/var/www/html
+    environment:
+      - MYSQL_PASSWORD="haslo"
+      - MYSQL_DATABASE="baza"
+      - MYSQL_USER="uztykownik"
+      - MYSQL_HOST="database"
