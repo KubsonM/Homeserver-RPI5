@@ -1,17 +1,17 @@
 # Homeserver-RPI5
 
-Zbudowałem w pełni funkcjonalny domowy serwer NAS oparty na Raspberry Pi 5 (8 GB RAM) z systemem Nextcloud, który służy jako prywatna chmura plików dostępna z dowolnego miejsca. Projekt obejmował:
+W pełni funkcjonalny domowy serwer NAS oparty na Raspberry Pi 5 (8 GB RAM) z systemem Nextcloud, który służy jako prywatna chmura plików dostępna z dowolnego miejsca.
 
 Sprzęt:
  - Raspberry Pi 5 (8 GB RAM)
  - 2x dyski SSD (każdy o pojemności 1 TB)
- - Dedykowana obudowa wydrukowana w 3D z przeszklonym panelem
+ - Dedykowana obudowa wydrukowana w 3D
  - Adapter SATA HAT umożliwiający podłączenie do 4 dysków SSD jednocześnie
 
 Oprogramowanie:
  - Nextcloud zainstalowany jako kontener Docker na Raspberry Pi
  - Konfiguracja OpenMediaVault jako system bazowy
- - Konfiguracja dostępu zdalnego przez wykupioną domenę internetową (bezpieczne połączenie HTTPS i przekierowanie portów)
+ - Konfiguracja dostępu zdalnego
 
 Efekt:
 Domowy NAS, z którego mogę korzystać jak z komercyjnej chmury – dostęp do plików z dowolnego urządzenia, automatyczna synchronizacja i backup, rozbudowane zarządzanie kontami użytkowników, możliwość rozbudowy o kolejne dyski SSD.
