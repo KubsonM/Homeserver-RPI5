@@ -14,7 +14,7 @@ Oprogramowanie:
  - Konfiguracja dostępu zdalnego
 
 Efekt:
-Domowy NAS, z którego mogę korzystać jak z komercyjnej chmury – dostęp do plików z dowolnego urządzenia, automatyczna synchronizacja i backup, rozbudowane zarządzanie kontami użytkowników, możliwość rozbudowy o kolejne dyski SSD.
+Domowy NAS, z którego można korzystać jak z komercyjnej chmury – dostęp do plików z dowolnego urządzenia, automatyczna synchronizacja i backup, rozbudowane zarządzanie kontami użytkowników, możliwość rozbudowy o kolejne dyski SSD.
 
 ![image](https://github.com/user-attachments/assets/8b8cf6b4-0891-4521-9e2b-e7b3b8a614e5)
 
