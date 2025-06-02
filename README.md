@@ -21,3 +21,5 @@ Domowy NAS, z którego mogę korzystać jak z komercyjnej chmury – dostęp do 
 ![homeserver2](https://github.com/user-attachments/assets/63415801-c3d0-4d5e-9a4d-761110f301ef)
 
 ![homeserver3](https://github.com/user-attachments/assets/4b28ce1a-e578-4a90-8576-1a6e6aa23af0)
+
+![image](https://github.com/user-attachments/assets/8b8cf6b4-0891-4521-9e2b-e7b3b8a614e5)
